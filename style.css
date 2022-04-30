@@ -1,6 +1,8 @@
 body {
     margin: 0;
 }
+/*----------------------------------------------- this is to give a paralax effects
+*/ 
 .wrapper {
     height: 100vh;
     overflow-y: auto;
@@ -35,6 +37,9 @@ header {
     transform: translateZ(-10px) scale(2);
     top: 50%;
 }
+
+/*-------------------------------------------------------------------*/
+
 .title{
     font-size: 7rem;
     color: white;
