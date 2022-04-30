@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-15px) scale(2.5);
+}
+.foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-10px) scale(2);
+    top: 50%;
+}
+.title{
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+
+}
+section{
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #061e40;
+    color: white;
+}
+.container {
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #061e40;
+    color: white;
+    box-sizing: border-box;
+}
+.col-20 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+} 
+.col-80 {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+} 
+label {
+    padding: 12px 12px 12px 0;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid #008cba;
+    border-radius: 5px;
+    resize: vertical;
+    width: 90%;
+}
+input[type=text] {
+    font-size: 20px;
+    border: none;
+    background-color: #061e40;
+    border-bottom: 2px solid red;
+    color: white;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 90%;
+}
+
+button {
+    transition-duration: 0.4s;
+    background-color: #008cba;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 21px;
+    border-radius: 5px;
+    color: white;
+    width: 20%;
+}
+button:hover {
+    background-color: cyan;
+    color: cadetblue;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .col-20, .col-80 {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #021a3b;
+    text-align: center;
+    font-weight: bold;
+}
