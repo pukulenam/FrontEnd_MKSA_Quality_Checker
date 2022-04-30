@@ -11,6 +11,10 @@ const getValueInput = () =>{
 }
 sample1=[];
 
+//------------------------------------------------------
+// code di bawah cuma buat nge check variable yg di input ke box
+//------------------------------------------------------
+
 document.addEventListener("keydown", event => {
   if (event.isComposing || event.keyCode !== 65) {
     return;
