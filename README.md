@@ -21,14 +21,12 @@ Mk:SA checker is quality checker for MKSA
 
 ## main Features
 ----------
-![kotlin-badge] ()
-[gcp-badge]: https://img.shields.io/badge/Cloud%20Computing-Nginx-FF6F00?style=flat&logo=nginx
-[node-badge]: https://img.shields.io/badge/REST%20API-NextInt%20API-FF6F00?style=flat&logo=express
+![image](https://raw.githubusercontent.com/ferytell/Puk6/master/assets/er.PNG)
 
 ------
 
 ### Architecture
-![image]: assets
+
 <!-- Linked In -->
 [LinkedIn - Adrian]: 
 [LinkedIn - Dava]:
