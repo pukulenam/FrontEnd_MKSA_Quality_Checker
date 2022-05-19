@@ -1,0 +1,19 @@
+{
+  "name": "puk6",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r <h1 align=\"center\">MKSA Quality Checker</h1>\r <h3 align=\"center\">give score to MKSA or auto generate MKSA maybe? </h3>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferytell/Puk6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferytell/Puk6/issues"
+  },
+  "homepage": "https://github.com/ferytell/Puk6#readme"
+}

@@ -1,6 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/seven-segment');
 body {
     margin: 0;
-    font-family: "Papyrus", "Copperplate", Fantasy;
+    font-family: 'Seven Segment', sans-serif;
 }
 /*----------------------------------------------- this is to give a paralax effects
 */ 
@@ -21,22 +22,54 @@ header {
     z-index: -1;
 }
 
-.background {
+
+.m1 {
     position: absolute;
     height: 100%;
     width: 100%;
     object-fit: cover;
     z-index: -1;
-    transform: translateZ(-15px) scale(2.5);
+    transform: translateZ(-5px) scale(1.7);
+    top: 20%;
 }
-.foreground {
+.m2 {
     position: absolute;
     height: 100%;
     width: 100%;
     object-fit: cover;
     z-index: -1;
     transform: translateZ(-10px) scale(2);
+    top: 30%;
+}
+.m3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-15px) scale(2.5);
+    top: 30%;
+}
+.m4 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-20px) scale(3);
+    top: 40%;
+}
+
+.logo {
+    position: absolute;
+    height: 30%;
+    width: 20%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-4px) scale(1);
     top: 50%;
+    border-radius: 50px;
+    border: 2px solid black;
 }
 
 /*-------------------------------------------------------------------*/
@@ -51,13 +84,13 @@ header {
 section{
     font-size: 2rem;
     padding: 2rem;
-    background-color: #061e40;
+    background-color: #f85f56;
     color: white;
 }
 .container {
     font-size: 2rem;
     padding: 2rem;
-    background-color: #061e40;
+    background-color: #f85f56;
     color: white;
     box-sizing: border-box;
 }
@@ -76,18 +109,18 @@ label {
 }
 
 textarea {
-    font-size: 20px;
+    font-size: 15px;
     padding: 12px;
     border: 1px solid #008cba;
     border-radius: 5px;
     resize: vertical;
     width: 90%;
-    font-family: "Papyrus", "Copperplate", Fantasy;
+    font-family: 'Seven Segment', sans-serif;
 }
 input[type=text] {
     font-size: 20px;
     border: none;
-    background-color: #061e40;
+    background-color: #f85f56;
     border-bottom: 2px solid red;
     color: white;
     transition: width 0.4s ease-in-out;
@@ -99,7 +132,7 @@ input[type=text]:focus {
 
 button {
     transition-duration: 0.4s;
-    background-color: #054399;
+    background-color: #f51e13;
     padding: 10px 30px;
     text-align: center;
     text-decoration: none;
@@ -107,19 +140,21 @@ button {
     border-radius: 5px;
     color: white;
     width: 20%;
-    font-family: "Papyrus", "Copperplate", Fantasy;
+    font-family: 'Seven Segment', sans-serif;
+    
 }
 button:hover {
     background-color: cyan;
     color: cadetblue;
+    cursor: pointer;
 }
 #valueInput {
-    background-color: #042a5f;
+    background-color: #f85f56;
     padding: 2rem;
     border-radius: 10px;
 }
 #valueResult {
-    background-color: #042a5f;
+    background-color: #f85f56;
     padding: 2rem;
     border-radius: 10px;
 }

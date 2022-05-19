@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puk6</title>
+    <title>MKSA Checker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <img src="assets/city.jpg" class="background">
-            <img src="assets/city.png" class="foreground">
-            <h1 class="title">Puk 6</h1>
+            <img src="assets/m4.png" class="m4">
+            <img src="assets/m3.png" class="m3">
+            <img src="assets/m2.png" class="m2">
+            <img src="assets/m1.png" class="m1">
+            <img src="assets/Main_logo.png" class="logo">
+            
         </header>
-        <section>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus iste, natus officiis ut mollitia harum a ab eos consequatur. Maxime est mollitia non adipisci officia consectetur, saepe aut totam optio. 
+        <section>This is an MKSA Quality Checker, work by comparing the article and the MKSA based on given data training. 
         </section>
         <div class="container">
             <div>
@@ -31,7 +34,7 @@
                     <textarea id="textArtikel" placeholder="Artikel.." style="height:200px"></textarea>
                 </div>
                 
-                <button type="button" onclick="getValueInput()">udah</button>
+                <button type="button" onclick="getValueInput()">check</button>
                 <p id="valueInput"><br></p>
             </div>
             <div>
@@ -43,5 +46,8 @@
         </footer> 
     </div>
     <script src="script.js"></script>
+    <script src="jquery.js"></script>
+    <script src="database.js"></script>
+    
 </body>
 </html>
