@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: "Papyrus", "Copperplate", Fantasy;
 }
 /*----------------------------------------------- this is to give a paralax effects
 */ 
@@ -44,6 +45,7 @@ header {
     font-size: 7rem;
     color: white;
     text-shadow: 0 0 5px black;
+    
 
 }
 section{
@@ -80,6 +82,7 @@ textarea {
     border-radius: 5px;
     resize: vertical;
     width: 90%;
+    font-family: "Papyrus", "Copperplate", Fantasy;
 }
 input[type=text] {
     font-size: 20px;
@@ -88,6 +91,7 @@ input[type=text] {
     border-bottom: 2px solid red;
     color: white;
     transition: width 0.4s ease-in-out;
+    font-family: "Papyrus", "Copperplate", Fantasy;
 }
 input[type=text]:focus {
     width: 90%;
@@ -95,7 +99,7 @@ input[type=text]:focus {
 
 button {
     transition-duration: 0.4s;
-    background-color: #008cba;
+    background-color: #054399;
     padding: 10px 30px;
     text-align: center;
     text-decoration: none;
@@ -103,12 +107,22 @@ button {
     border-radius: 5px;
     color: white;
     width: 20%;
+    font-family: "Papyrus", "Copperplate", Fantasy;
 }
 button:hover {
     background-color: cyan;
     color: cadetblue;
 }
-
+#valueInput {
+    background-color: #042a5f;
+    padding: 2rem;
+    border-radius: 10px;
+}
+#valueResult {
+    background-color: #042a5f;
+    padding: 2rem;
+    border-radius: 10px;
+}
 
 
 @media screen and (max-width: 600px) {
